@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Inner Core:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textStyle="bold"
+		android:textSize="43sp"
+		android:translationY="-17dp"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Учебник по моддингу."
+		android:layout_width="wrap_content"
+		android:ellipsize="start"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="10dp"
+		android:translationY="32dp"
+		android:translationX="50dp"
+		android:textStyle="bold"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Предисловие"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:translationY="74dp"
+		android:hint="6"
+		android:inputType="text|time"
+		android:textSize="18sp"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"
+		android:onClick="fuc"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Уроки"
+		android:layout_width="wrap_content"
+		android:translationY="133dp"
+		android:translationX="88dp"
+		android:maxLines="2"
+		android:height="25dp"
+		android:inputType="text|time"
+		android:textScaleX="1"
+		android:rotationX="0"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"
+		android:onClick="uroki"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Общая библиотека"
+		android:layout_width="wrap_content"
+		android:translationY="190dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Полезные сылки"
+		android:layout_width="wrap_content"
+		android:translationY="273dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Настройки"
+		android:layout_width="wrap_content"
+		android:translationY="345dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Автор"
+		android:layout_width="wrap_content"
+		android:translationX="88dp"
+		android:translationY="400dp"
+		android:ems="6"
+		android:textStyle="bold"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+</RelativeLayout>
+

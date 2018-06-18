@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Уроки"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:translationX="120dp"
+		android:textSize="28sp"
+		android:textColorHint="#000000"
+		android:shadowDy="0.5"
+		android:shadowRadius="2"
+		android:shadowDx="0.5"
+		android:shadowColor="#000000"
+		android:textStyle="bold|normal"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="1.Шаблон мода,приложения;"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:translationY="81dp"
+		android:hint="6"
+		android:inputType="text|time"
+		android:textSize="18sp"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"
+		android:onClick="s"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Предмет;"
+		android:layout_width="wrap_content"
+		android:translationY="141dp"
+		android:translationX="88dp"
+		android:maxLines="2"
+		android:height="25dp"
+		android:inputType="text|time"
+		android:textScaleX="1"
+		android:rotationX="0"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"
+		android:onClick="w"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Блок;"
+		android:layout_width="wrap_content"
+		android:translationY="200dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Мобы;"
+		android:layout_width="wrap_content"
+		android:translationY="260dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="GUI;"
+		android:layout_width="wrap_content"
+		android:translationY="323dp"
+		android:translationX="88dp"
+		android:ems="6"
+		android:shadowDy="1"
+		android:shadowDx="1"
+		android:shadowColor="#000000"
+		android:shadowRadius="1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Назад"
+		android:layout_width="wrap_content"
+		android:onClick="n"/>
+
+</RelativeLayout>
+

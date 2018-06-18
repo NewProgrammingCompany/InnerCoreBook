@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:text="Назад"
+		android:layout_width="wrap_content"
+		android:textSize="17sp"
+		android:onClick="fuc1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Предисловие"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerVertical="true"
+		android:translationX="57dp"
+		android:textStyle="bold|normal"
+		android:textSize="31sp"
+		android:shadowDy="1.0"
+		android:shadowDx="1.0"
+		android:shadowRadius="1.0"
+		android:shadowColor="#000000"
+		android:translationY="34dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="InnerCore был создан на базе чистого MCPE 1.0.3 и является полноценной средой для создания и игры с модами, дающей возможности куда большие, чем CoreEngine &amp; BlockLauncher. Написанная с нуля нативная часть позволила решить абсолютное большинство проблем, связанных с моддингом на базе BlockLauncher и сделать API намного эффективнее."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:translationY="122dp"
+		android:textStyle="normal"
+		android:shadowDy="0.5"
+		android:shadowRadius="0.5"
+		android:shadowDx="0.5"
+		android:shadowColor="#000000"
+		android:textSize="14sp"
+		android:textColor="#00FF5D"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Чтоб писать моды под Inner Core вам нужно будет выучить JavaScript а также изучить все фишки Inner Core."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:translationY="301dp"
+		android:shadowDy="0.5"
+		android:shadowRadius="0.5"
+		android:shadowDx="0.5"
+		android:shadowColor="#000000"
+		android:textSize="14sp"
+		android:textColor="#00FF39"/>
+
+	<View
+		android:layout_height="wrap_content"
+		android:background="?android:attr/dividerHorizontal"
+		android:layout_width="1dp"
+		android:elevation="10dp"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Вначале пожалуй раскажу об Inner Core и зачем нужен этот учебник."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:translationY="80dp"
+		android:shadowDy="0.5"
+		android:shadowRadius="0.5"
+		android:shadowDx="0.5"
+		android:shadowColor="#000000"
+		android:textSize="14sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Ну а в данном учебнике вы cможете научится модднгу на Inner Core. Удачи!"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:translationY="357dp"
+		android:shadowDy="0.5"
+		android:shadowRadius="0.5"
+		android:shadowDx="0.5"
+		android:shadowColor="#000000"
+		android:textSize="14sp"/>
+
+</RelativeLayout>
+
